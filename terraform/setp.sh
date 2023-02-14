@@ -9,7 +9,7 @@ sudo apt-get install kubectl -y
 #To Install google plugin
 sudo apt-get install google-cloud-sdk-gke-gcloud-auth-plugin -y
 #Git Clone
-sudo git clone https://github.com/seada98/ITI-Final-Project-Infrastructure.git /home/mohamed/files
+sudo git clone https://github.com/Abdalla1297/DevOps-final-project-terraform.git /home/abdalla/files
 #To install ansible 
 sudo apt-get install -y ansible
 #Run Ansible Playbook To Connect With cluster And deploy Jenkins With Services

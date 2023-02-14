@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: jenkins
-          image: bojy1297/jenkins-devops
+          image: bojy1297/devops-final
           ports:
             - name: httpport
               containerPort: 8080
