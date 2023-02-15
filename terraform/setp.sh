@@ -13,4 +13,4 @@ sudo git clone https://github.com/Abdalla1297/DevOps-final-project-terraform.git
 #To install ansible 
 sudo apt-get install -y ansible
 #Run Ansible Playbook To Connect With cluster And deploy Jenkins With Services
-sudo ansible-playbook /home/mohamed/files/ansible.yaml
+sudo ansible-playbook /home/abdalla/myfile/ansibal.yml
