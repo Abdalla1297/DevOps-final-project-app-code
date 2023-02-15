@@ -43,7 +43,7 @@ $ gcloud container clusters get-credentials private-standerd-gke-cluster --zone 
 kubectl get all -n jenkins
 ```
 #### Here we are in Jenkins
-![home_Page Image]()
+![](./pic/Screenshot%20from%202023-02-15%2023-09-53.png)
 
 #### Print Jenkines password:
 ```bash
