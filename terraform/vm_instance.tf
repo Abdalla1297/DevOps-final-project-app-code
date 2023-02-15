@@ -1,5 +1,5 @@
-resource "google_compute_instance" "private_vm" {
-  name         = "private_vm"
+resource "google_compute_instance" "private-vm" {
+  name         = "private-vm"
   machine_type = "e2-micro"
   zone         = "us-central1-b"
   allow_stopping_for_update = true
