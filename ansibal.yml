@@ -2,7 +2,7 @@
   become: yes
   tasks:
     - name: Task -1 Connect to cluster
-      shell: gcloud container clusters get-credentials private-standerd-gke-cluster --zone us-central1-b --project abdalla-iti
+      shell: gcloud container clusters get-credentials private-standerd-gke-cluster --zone us-central1-b --project abdallah-iti-377721
 
     - name: Task -2 Create Jenkins namespace
       shell: kubectl create namespace jenkins
