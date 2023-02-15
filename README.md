@@ -1,4 +1,4 @@
-# DevOps-final-project-app-code
+# DevOps-final-project-Infra
 ## Overview
 Deploy a Python web application on GKE using CI/CD Jenkins Pipeline using the following steps and high-level diagram:
 
