@@ -1,5 +1,5 @@
 vpc_name = "my-vpc"
-region = "us-east4"
-subnet_region = "us-east4"
+region = "us-centeral1"
+subnet_region = "us-centeral1"
 subnet_1_name = "management-subnet"
 subnet_1_cidr = "10.0.1.0/24"

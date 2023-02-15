@@ -1,13 +1,13 @@
 resource "google_container_cluster" "private-cluster" {
   name                     = "private-standerd-gke-cluster"
-  location                 =    "us-east4-b"
+  location                 =    "us-centeral1-b"
   remove_default_node_pool = true
   initial_node_count       = 1
   network                  = var.vpc_name
   subnetwork               = var.subnet_1_name
 
   node_locations = [
-    "us-east4-c"
+    "us-centeral1-c"
    
   ]
     depends_on = [
