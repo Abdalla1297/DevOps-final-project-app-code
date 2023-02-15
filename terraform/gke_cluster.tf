@@ -6,10 +6,10 @@ resource "google_container_cluster" "private-cluster" {
   network                  = var.vpc_name
   subnetwork               = var.subnet_1_name
 
-  node_locations = [
-    "us-central1-c"
+  # node_locations = [
+  #   "us-central1-c"
    
-  ]
+  # ]
     depends_on = [
     module.network
   ]
@@ -59,6 +59,7 @@ resource "google_container_cluster" "private-cluster" {
 
 resource "google_container_node_pool" "nodepool" {
   name       = "node-pool"
+  location = "us-central1-a"
   cluster    = google_container_cluster.private-cluster.id
   node_count = 2
 
