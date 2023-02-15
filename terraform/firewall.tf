@@ -1,6 +1,6 @@
 
 resource "google_compute_firewall" "allow_ssh_firewall" {
-  project     = "abdallah-iti"
+  project     = "abdallah-iti-377721"
   name        = "allow-ssh-firewall"
   network     = var.vpc_name
   direction = "INGRESS"

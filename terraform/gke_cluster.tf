@@ -35,7 +35,7 @@ resource "google_container_cluster" "private-cluster" {
   }
 
   workload_identity_config {
-    workload_pool = "abdallah-iti.svc.id.goog"
+    workload_pool = "abdallah-iti-377721.svc.id.goog"
   }
   ip_allocation_policy {
     cluster_secondary_range_name  = "k8s-pod-range"
